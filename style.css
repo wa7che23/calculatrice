@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+padding: 0;
+}
+.button{
+    width: 80px;
+    height: 80px;
+    font-size: 25px;
+   margin: 2px;
+    
+
+}
+.textview
+{
+    width: 320px;
+    height: 80px;
+    font-size: 25px;
+   margin: 5px;
+   padding: 5px;
+}

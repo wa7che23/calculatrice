@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>
+       calculatrice
+    </title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="bootstrap.min.css">
+
+</head>
+<body>
+    <div class="main">
+        <form name="form">
+            <input class="textview" name="textview">
+        </form>
+        <table>
+                <tr>
+              
+               
+                        <td><input class="button"type="button" value="C" onclick="c()" > </td>
+                        <td><input class="button" type="button" value="<" onclick="supp()" > </td>
+                        <td><input class="button" type="button" value="/" onclick="inserer('/')" > </td>
+                        <td><input class="button" type="button" value="X" onclick="inserer('*')" > </td>
+                    </tr>
+            <tr>
+                <td><input class="button" type="button" value="7" onclick="inserer(7)" > </td>
+                <td><input class="button"type="button" value="8" onclick="inserer(8)" > </td>
+                <td><input class="button" type="button"value="9" onclick="inserer(9)" > </td>
+                <td><input class="button"type="button" value="-" onclick="inserer('-')" > </td>
+             
+
+            </tr>
+            <tr>
+                <td><input class="button" type="button" value="4" onclick="inserer(4)" > </td>
+                <td><input class="button" type="button"value="5" onclick="inserer(5)" > </td>
+                <td><input class="button"type="button" value="6" onclick="inserer(6)" > </td>
+                <td><input class="button" type="button"value="+" onclick="inserer('+')" > </td>
+            </tr>
+            <tr>
+              
+               
+                <td><input class="button"type="button" value="1" onclick="inserer(1)" > </td>
+                <td><input class="button" type="button" value="2" onclick="inserer(2)" > </td>
+                <td><input class="button" type="button" value="3" onclick="inserer(3)" > </td>
+                <td><input class="button" type="button" value="=" onclick="oper()" > </td>
+            </tr>
+            <tr>
+              
+               
+                    <td colspan="3"><input class="button" style="width: 240px;"type="button"  value="0" onclick="inserer(0)" > </td>
+                    <td><input class="button" type="button" value="." onclick="inserer('.')" > </td>
+            
+          
+                </tr>
+        </table>
+    </div>
+    <script src="op.js">
+        </script>
+</body>
+</html>
